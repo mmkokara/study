@@ -1,0 +1,80 @@
+/* header */
+/*高さ ５０px
+幅 １００％
+背景色 自由（フッターと同色）*/
+header{
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+    opacity: 0.5;
+}
+
+/* zone */
+/*幅 １００％
+高さ ５００px
+背景色 自由（他要素の背景色と同色は禁止）
+横並び配置
+  水平配置 アイテムの両端にスペースを均等に割り付け
+  垂直配置 センター揃え
+文字の大きさ ３５px*/
+.zone{
+    width: 100%;
+    height: 500px;
+    background-color:honeydew;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* 複数指定できるプロパティはまとめて装飾する */
+
+/* left-zone */
+/*高さ ２００px
+幅 ２００px
+背景色 自由（他要素の背景色と同色は禁止）
+文字の色 自由（背景色と同色は禁止）*/
+
+.l-zone{
+    height: 200px;
+    width: 200px;
+    background-color: steelblue;
+    color: antiquewhite;
+}
+ 
+/* center-zone */
+/*高さ ２００px
+幅 ２００px
+背景色 自由（他要素の背景色と同色は禁止）
+文字の色 自由（背景色と同色は禁止）*/
+.c-zone{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    color: antiquewhite;
+}
+
+/* right-zone */
+/*高さ ２００px
+幅 ２００px
+背景色 自由（他要素の背景色と同色は禁止）
+文字の色 自由（背景色と同色は禁止）*/
+.r-zone{
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    color: antiquewhite;
+}
+
+/* footer */
+/*高さ ５０px
+幅 １００％
+背景色 自由（ヘッダーと同色）*/
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+    opacity: 0.5;
+}
+

@@ -1,0 +1,54 @@
+header{
+    color: #fff;
+    background-color: #26d0c9;
+    height: 90px;
+}
+
+.logo{
+   width:210px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: right;
+    padding: 33px 20px;
+    list-style: none;
+}
+
+.contact-form{
+    background-color: lightgray;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.tag{
+    width:500px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:15px;
+    border:1px solid ;
+    align-items: center;
+}
+
+textarea{
+    width:500px;
+    height: 200px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:15px;
+    border:1px solid ;
+}
+
+.contact-submit{
+    align-items: center;
+}
+
+input{
+    width: 100px;
+}

@@ -1,0 +1,41 @@
+/* 値の種類は全て載せているわけではありません。
+必要なコードを適宜記述しながら完成させましょう。*/
+/* positionプロパティは必ず使用しましょう */
+ 
+/* parents */
+.parents{
+    width: 100%;
+    height:600px;
+    background-color: aquamarine;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*幅 １００％
+高さ ６００px
+背景色 自由*/
+ 
+.parent{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    position: relative;
+}
+
+/* parent */
+/*幅 ２５０px
+高さ ２５０px
+背景色 自由（親要素と同色は禁止）*/
+ 
+.child{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+/* child */
+/*幅 ７０％
+高さ ７０％*/

@@ -1,0 +1,115 @@
+body {
+    background-image: url(study/../../../picture/background.jpg);
+   }
+   
+header{
+    color: #fff;
+    background-color: #26d0c9;
+    height: 90px;
+}
+
+.logo{
+   width:210px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: right;
+    padding: 33px 20px;
+    list-style: none;
+}
+
+h2{
+    background-color: white;
+    border: 2px solid pink;
+}
+
+.menu{
+    width:120px;
+}
+
+.information{
+    width: 145px;
+}
+
+h3{
+    background-color: white;
+    border: 2px solid pink;
+    
+}
+
+.lanch-time{
+    width: 150px;
+}
+
+.dinner-time{
+    width: 170px;
+}
+
+.top-content{
+    background-color: blanchedalmond;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-content{
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-content img,.bottom-content img{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+
+.top-content .left-text{
+    margin-left: 40px;
+}
+
+.top-content .center-text{
+    margin-left: 50px;
+}
+
+.top-content .right-text{
+    margin-left: 50px;
+}
+
+.money{
+    margin-left: 30px;
+}
+
+.bottom-content .left-text{
+    margin-left: 20px;
+}
+
+.bottom-content .center-text{
+    margin-left: 35px;
+}
+
+.bottom-content .right-text{
+    margin-left: 35px;
+}
+
+.texts{
+    background-color: white;
+    border: 5px solid;
+}
+
+.events{
+    list-style: none;
+}
+
+.event{
+    margin-top :20px;
+}
+
+.day{
+    color: orange;
+}
